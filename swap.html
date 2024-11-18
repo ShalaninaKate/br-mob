@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Swap</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main exchange">
+        <div class="exchange__order">
+          <h2 class="exchange__order-title">Swap</h2>
+          <form action="" class="exchange__order-form form">
+            <div class="order-form__body">
+              <div class="order-form__block">
+                <h3 class="order-form__title">You pay</h3>
+                <div class="order-form__items">
+                  <div class="order-form__item form__item">
+                    <button class="form__control form-control">
+                      <p class="form-control__text">Asset</p>
+                      <svg class="form-control__arrow">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="order-form__item form__item">
+                    <button class="form__control form-control ">
+                      <p class="form-control__text">Network</p>
+                      <svg class="form-control__arrow">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="order-form__item form__item">
+                    <div class="order-form__input form__input input">
+                      <input type="text" name="" value="" placeholder="Amount" class="input__control">
+                    </div>
+                    <span class="form__item-text-bottom">Balance: 1 000 000 BRT</span>
+                  </div>
+
+                </div>
+              </div>
+              <div class="order-form__block">
+                <h3 class="order-form__title">You get</h3>
+                <div class="order-form__items">
+                  <div class="order-form__item form__item">
+                    <button class="form__control form-control ">
+                      <p class="form-control__text">Asset</p>
+                      <svg class="form-control__arrow">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="order-form__item form__item">
+                    <button class="form__control form-control ">
+                      <p class="form-control__text">Network</p>
+                      <svg class="form-control__arrow">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="order-form__item form__item">
+                    <div class="order-form__input form__input input">
+                      <input type="text" name="" value="60 000" placeholder="" class="input__control">
+                    </div>
+                    <span class="form__item-text-bottom">Fee: 0.003 BTR</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <button class="order-form__button button">Swap</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

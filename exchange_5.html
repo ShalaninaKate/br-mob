@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exchange 5</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page js-main">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main ">
+        <div class="exchange">
+          <div class="exchange__header header-page">
+            <h1 class="header-page__title">Exchange</h1>
+          </div>
+          <div class="exchange__chat chat">
+
+            <div class="chat__header">
+              <div class="chat__header-profile profile">
+                <div class="profile__user online">
+                  <div class="profile__ava">
+                    <img class="profile__img" src="./img/person-2.png" alt="ava">
+                  </div>
+                </div>
+                <div class="profile__info">
+                  <div class="profile__name">Sophie Moore</div>
+                  <div class="profile__settings">@sophiemoore</div>
+                </div>
+              </div>
+            </div>
+            <div class="chat__body">
+              <div class="chat__messages">
+                <ul class="chat__message chat__message--support">
+                  <li class="chat__message-item">
+                    <div class="chat__message-ava">
+                      <div class="profile__user online">
+                        <div class="profile__ava ">
+                          <img class="profile__img" src="./img/person-2.png" alt="ava">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat__message-content">
+                      <ul class="chat__message-block">
+                        <li class="chat__message-text">Hello John! Hope you’re doing well. I need your help with some
+                          reports, are you available for a call later today?</li>
+                        <li class="chat__message-text">Thank you</li>
+                      </ul>
+                      <div class="chat__message-time">11:36 AM</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="chat__messages">
+                <ul class="chat__message chat__message--user">
+                  <li class="chat__message-item">
+                    <div class="chat__message-content">
+                      <ul class="chat__message-block">
+                        <li class="chat__message-text">Hey Sophie! How are you?</li>
+                        <li class="chat__message-text">For sure, I’ll be free after mid-day, let me know what time
+                          works for you</li>
+                      </ul>
+                      <div class="chat__message-time">11:41 AM</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <form class="chat__input-container">
+
+              <textarea class="chat__input" placeholder="Type a message"></textarea>
+              <div class="chat__input-actions">
+                <button class="chat__input-btn ">
+                  <img class="chat__input-icon chat__input-icon--emoji" src="./img/svg/smile.svg" alt="">
+                </button>
+
+                <button class="chat__input-btn">
+                  <input type="file" name="image" class="chat__input-file">
+                  <img class="chat__input-icon chat__input-icon--mention" src="./img/svg/clip.svg" alt="">
+                </button>
+                <button type="submit" class="chat__input-button button">Send now</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

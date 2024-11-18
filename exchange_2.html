@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exchange 2</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main ">
+        <div class="exchange">
+          <div class="exchange__header header-page">
+            <h1 class="header-page__title">Exchange</h1>
+          </div>
+          <div class="exchange__order exchange__order-actions">
+            <h2 class="exchange__order-title exchange__order-title--actions">Order <span>#409489022</span></h2>
+            <ul class="exchange__order-details order-details">
+              <li class="order-details__item order-details__item--header">
+                <h4 class="order-details__title">You Pay</h4>
+                <span class="order-details__value">1000 USDT</span>
+              </li>
+              <li class="order-details__item order-details__item--header">
+                <h4 class="order-details__title">Fee:</h4>
+                <span class="order-details__value">30 TRX</span>
+              </li>
+              <li class="order-details__item order-details__item--header">
+                <h4 class="order-details__title">You Get:</h4>
+                <span class="order-details__value">10 000 BRT</span>
+              </li>
+              <li class="order-details__item">
+                <h4 class="order-details__title">Trader/Company:</h4>
+                <span class="order-details__value">Sh. Mansur Exchange</span>
+              </li>
+              <li class="order-details__item">
+                <h4 class="order-details__title">Date/Time:
+                </h4>
+                <span class="order-details__value">12.01.2025</span>
+              </li>
+            </ul>
+            <div class="exchange__order-address">
+              <div class="exchange__order-address-body">
+                <label for="" class="exchange__order-address-label">Transfer coins to the address:</label>
+
+                <div class="exchange__order-address-value">
+                  <span class="exchange__order-address-text">3×29034890239s5dg7j0gyrj239</span>
+                  <button class="exchange__order-address-copy">
+                    <svg class="exchange__order-address-copy-icon">
+                      <use xlink:href="img/sprite.svg#copy"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+            <button class="exchange__order-button button">I Paid</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

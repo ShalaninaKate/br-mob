@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+           <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="settings">
+          <nav class="settings__navigation navigation-settings">
+            <ul class="navigation-settings__list">
+              <li class="navigation-settings__item active">
+                <a href="#" class="navigation-settings__link ">Info</a>
+              </li>
+              <li class="navigation-settings__item">
+                <a href="#" class="navigation-settings__link">Pass</a>
+              </li>
+              <li class="navigation-settings__item">
+                <a href="#" class="navigation-settings__link">Billing</a>
+              </li>
+              <li class="navigation-settings__item">
+                <a href="#" class="navigation-settings__link">Notif</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="settings__body">
+            <div class="settings__card">
+              <div class="settings__header">
+                <h2 class="settings__title">Personal information</h2>
+                <div class="settings__subtitle">Lorem ipsum dolor sit amet consectetur adipiscing.</div>
+              </div>
+              <form action="" class="settings__form form-settings">
+                <div class="form-settings__item">
+                  <div class="form-settings__label">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#user"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Full name</span>
+                  </div>
+                  <input type="text" class="form-settings__input" value="John Carter">
+                </div>
+                <div class="form-settings__item">
+                  <div class="form-settings__label">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#email"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Email address</span>
+                  </div>
+                  <input type="text" class="form-settings__input" value="john@dashdark.com">
+                </div>
+                <div class="form-settings__item">
+                  <div class="form-settings__label form-settings__label--photo">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#image"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Photo</span>
+                  </div>
+                  <div class="form-settings__src">
+                    <div class="form-settings__image">
+                      <div class="form-settings__ava">
+                        <img src="./img/person.png" alt="ava">
+                      </div>
+                      <button class="form-settings__photo-del">Delete</button>
+                    </div>
+                    <div class="form-settings__upload-photo upload-photo">
+                      <div class="upload-photo__img">
+                        <svg class="upload-photo__icon">
+                          <use xlink:href="img/sprite.svg#image"></use>
+                        </svg>
+                      </div>
+                      <div class="upload-photo__file">
+
+                        <div class="upload-photo__btn">
+                          <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+                            class="upload-photo__input">
+
+                          <div class="upload-photo__input-btn"> <span>Click to upload</span> or drag and drop
+                            SVG, PNG, JPG or GIF (max. 800×400px)</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+            <div class="settings__card">
+              <div class="settings__header">
+                <h2 class="settings__title">Basic information</h2>
+                <div class="settings__subtitle">Lorem ipsum dolor sit amet consectetur adipiscing.</div>
+              </div>
+
+              <form action="" class="settings__form form-settings">
+                <div class="form-settings__item">
+                  <div class="form-settings__label">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#phone"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Phone</span>
+                  </div>
+                  <input type="text" class="form-settings__input" value="(123) 456 - 7890">
+                </div>
+                <div class="form-settings__item">
+                  <div class="form-settings__label">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#bag"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Birthday</span>
+                  </div>
+                  <input type="text" class="form-settings__input" value="11.11.1991">
+                </div>
+                <div class="form-settings__item">
+                  <div class="form-settings__label">
+                    <svg class="form-settings__label-icon">
+                      <use xlink:href="img/sprite.svg#address"></use>
+                    </svg>
+                    <span class="form-settings__label-text">Location</span>
+                  </div>
+                  <input type="text" class="form-settings__input" value="New York, NY">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

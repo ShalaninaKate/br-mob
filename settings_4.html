@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Settings 4</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="settings">
+          <nav class="settings__navigation navigation-settings">
+            <ul class="navigation-settings__list">
+              <li class="navigation-settings__item ">
+                <a href="#" class="navigation-settings__link ">Info</a>
+              </li>
+              <li class="navigation-settings__item">
+                <a href="#" class="navigation-settings__link">Pass</a>
+              </li>
+              <li class="navigation-settings__item">
+                <a href="#" class="navigation-settings__link">Billing</a>
+              </li>
+              <li class="navigation-settings__item active">
+                <a href="#" class="navigation-settings__link">Notif</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="settings__body">
+            <div class="settings__card">
+              <div class="settings__header">
+                <h2 class="settings__title">General notifications</h2>
+                <div class="settings__subtitle">Lorem ipsum dolor sit amet consectetur adipiscing.</div>
+              </div>
+              <form action="" class="settings__form form-settings">
+                <div class="form-settings__item-notification">
+                  <div class="form-settings__label">
+                    <span class="form-settings__label-text">Order status</span>
+                    <img class="form-settings__label-icon" src="./img/info.png" alt="">
+                  </div>
+                  <div class="form-settings__switch">
+                    <button class="form-settings__switch-btn form-settings__switch-btn--app active">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#app"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">In-app</span>
+                    </button>
+                    <button class="form-settings__switch-btn form-settings__switch-btn--mail">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#email"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">Email</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="form-settings__item-notification">
+                  <div class="form-settings__label">
+                    <span class="form-settings__label-text">System message</span>
+                    <img class="form-settings__label-icon" src="./img/info.png" alt="">
+                  </div>
+                  <div class="form-settings__switch">
+                    <button class="form-settings__switch-btn form-settings__switch-btn--app ">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#app"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">In-app</span>
+                    </button>
+                    <button class="form-settings__switch-btn form-settings__switch-btn--mail active">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#email"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">Email</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="form-settings__item-notification">
+                  <div class="form-settings__label">
+                    <span class="form-settings__label-text">Terms has changed</span>
+                    <img class="form-settings__label-icon" src="./img/info.png" alt="">
+                  </div>
+                  <div class="form-settings__switch">
+                    <button class="form-settings__switch-btn form-settings__switch-btn--app ">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#app"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">In-app</span>
+                    </button>
+                    <button class="form-settings__switch-btn form-settings__switch-btn--mail active">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#email"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">Email</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="form-settings__item-notification">
+                  <div class="form-settings__label">
+                    <span class="form-settings__label-text">Token rate has changed</span>
+                    <img class="form-settings__label-icon" src="./img/info.png" alt="">
+                  </div>
+                  <div class="form-settings__switch">
+                    <button class="form-settings__switch-btn form-settings__switch-btn--app active">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#app"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">In-app</span>
+                    </button>
+                    <button class="form-settings__switch-btn form-settings__switch-btn--mail">
+                      <svg class="form-settings__switch-icon">
+                        <use xlink:href="img/sprite.svg#email"></use>
+                      </svg>
+                      <span class="form-settings__switch-text">Email</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

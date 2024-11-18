@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crowdfunding refund</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main crowdfunding-actions">
+
+        <div class="crowdfunding-actions__body">
+          <div class="crowdfunding-actions__header">
+            <h2 class="crowdfunding-actions__title">Deposit List</h2>
+            <p class="crowdfunding-actions__subtitle crowdfunding-actions__subtitle--refund">Select one or more deposits to
+              refund</p>
+          </div>
+          <div class="refund__table transactions-table">
+            <div class="table__row">
+              <ul class="transactions-table__items table__items table__items--title">
+                <li class="table__item table__item--order">Order</li>
+                <li class="table__item table__item--date">Date</li>
+                <li class="table__item table__item--status">Rate</li>
+                <li class="table__item table__item--total">Amount</li>
+              </ul>
+            </div>
+
+            <div class="table__row">
+              <ul class="transactions-table__items table__items table__items--paid">
+                <li class="table__item">
+                  <div class="table__item-order table__item-order--paid">#1532</div>
+                </li>
+                <li class="table__item">Dec 30, 10:06 AM</li>
+                <li class="table__item">5%</li>
+                <li class="table__item table__item--total">329 BRT</li>
+              </ul>
+            </div>
+            <div class="table__row">
+              <ul class="transactions-table__items table__items">
+                <li class="table__item">
+                  <div class="table__item-order">#1532</div>
+                </li>
+                <li class="table__item">Dec 30, 10:06 AM</li>
+                <li class="table__item">5%</li>
+                <li class="table__item table__item--total">329 BRT</li>
+              </ul>
+            </div>
+            <div class="table__row">
+              <ul class="transactions-table__items table__items">
+                <li class="table__item">
+                  <div class="table__item-order">#1532</div>
+                </li>
+                <li class="table__item">Dec 30, 10:06 AM</li>
+                <li class="table__item">5%</li>
+                <li class="table__item table__item--total">329 BRT</li>
+              </ul>
+            </div>
+            <div class="table__row">
+              <ul class="transactions-table__items table__items table__items--paid">
+                <li class="table__item">
+                  <div class="table__item-order table__item-order--paid">#1532</div>
+                </li>
+                <li class="table__item">Dec 30, 10:06 AM</li>
+                <li class="table__item">5%</li>
+                <li class="table__item table__item--total">329 BRT</li>
+              </ul>
+            </div>
+          </div>
+
+          <button class="refund__button button">Refund</button>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

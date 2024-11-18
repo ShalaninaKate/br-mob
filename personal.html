@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crowdfunding personal</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+  <nav class="sidebar__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#dashboard"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link active">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#crowdfunding"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#avalanche"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#exchange"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#history"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item ">
+        <a href="#" class="nav__link ">
+          <svg class="nav__link-icon">
+            <use xlink:href="img/sprite.svg#settings"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+</aside>
+
+    <div class="page">
+            <header class="header">
+       <div class="header__logo-container"> <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header__actions">
+          <button class="header__notification notification">
+            <svg class="notification__icon">
+              <use xlink:href="img/sprite.svg#notification"></use>
+            </svg>
+          </button>
+          <button class="header__profile profile">
+            <div class="profile__user">
+              <div class="profile__ava">
+                <img class="profile__img" src="./img/person.png" alt="ava">
+              </div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__name">John Carter</div>
+              <div class="profile__settings">Account settings</div>
+            </div>
+          </button>
+        </div>
+      </header>
+
+      <main class="main crowdfunding-actions">
+        <div class="crowdfunding-actions__body">
+          <div class="crowdfunding-actions__header">
+            <h2 class="crowdfunding-actions__title">Deposit Order</h2>
+            <p class="crowdfunding-actions__subtitle">#409489022</p>
+          </div>
+          <form action="#" class="order form">
+            <div class="order__items">
+              <div class="order__item form__item">
+                <div class="order__input form__input input">
+                  <input type="text" name="" value="100 BRT min" placeholder="" class="input__control">
+                </div>
+                <span class="form__item-text-bottom">Balance: 1 000 000 BRT</span>
+              </div>
+              <ul class="order__details order-details">
+                <li class="order-details__item order-details__item--header">
+                  <h4 class="order-details__title">You deposit</h4>
+                  <span class="order-details__value">1000 BRT</span>
+                </li>
+                <li class="order-details__item">
+                  <h4 class="order-details__title">Term:</h4>
+                  <span class="order-details__value">91 Day</span>
+                </li>
+                <li class="order-details__item">
+                  <h4 class="order-details__title">Interest rate</h4>
+                  <span class="order-details__value">5%</span>
+                </li>
+                <li class="order-details__item">
+                  <h4 class="order-details__title">Type:</h4>
+                  <span class="order-details__value">Basic Deposit</span>
+                </li>
+                <li class="order-details__item">
+                  <h4 class="order-details__title">Date/Time:
+                  </h4>
+                  <span class="order-details__value">12.01.2025</span>
+                </li>
+              </ul>
+            </div>
+            <button class="order__button button">Deposit</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
